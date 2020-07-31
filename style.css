@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+}
+
+.gobutton {
+    cursor: pointer;
+    background-color: rgb(31, 27, 22);
+    color: aqua;
+    height: 2rem;
+    width: 5rem;
+}
+
+.gobutton:hover {
+    background-color: rgb(173, 157, 138);
+}
+
+body {
+    background-image: url(./assets/q1.jpg);
+    background-repeat: no-repeat;
+    background-size: 86rem 43rem;
+}
+
+#result {
+    margin-left: 45%;
+    margin-right: 45%;
+    text-align: center;
+
+    background-color: brown;
+    color: chartreuse;
+}
